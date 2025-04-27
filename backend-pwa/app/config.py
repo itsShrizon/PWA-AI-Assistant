@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Environment variables
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "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")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
 # DB_PATH = os.getenv("DB_PATH", "./data")
 IMAGES_PATH = os.getenv("IMAGES_PATH", "./images")
 DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://postgres:sam1127@localhost:5433/ai-database" )
